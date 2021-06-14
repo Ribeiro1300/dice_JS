@@ -40,33 +40,3 @@ footer {
   display: inline-block;
 
 }
-.img1
-{
-  content: url("/img/dice1.png");
-  width: 80%;
-}
-.img2
-{
-  content: url("/img/dice2.png");
-  width: 80%;
-}
-.img3
-{
-  content: url("/img/dice3.png");
-  width: 80%;
-}
-.img4
-{
-  content: url("/img/dice4.png");
-  width: 80%;
-}
-.img5
-{
-  content: url("/img/dice5.png");
-  width: 80%;
-}
-.img6
-{
-  content: url("/img/dice6.png");
-  width: 80%;
-}
