@@ -40,3 +40,9 @@ footer {
   display: inline-block;
 
 }
+input
+{
+  height: 2em;
+  text-align: center;
+  width: 15em;
+}

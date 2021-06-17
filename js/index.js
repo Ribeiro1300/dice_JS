@@ -14,13 +14,18 @@ function exec()
     x.setAttribute("src", src1)
     y.setAttribute("src", src2)
 
+    var p1 = document.querySelector("#p1")
+    var p2 = document.querySelector("#p2")
+    var name1 = p1.value
+    var name2 = p2.value
+
     if (n1>n2)
     {
-        display.innerHTML = "Player 1 Ganhou!"
+        display.innerHTML = name1 +" Ganhou!"
     }
     else if (n1<n2)
     {
-        display.innerHTML = "Player 2 Ganhou!"
+        display.innerHTML = name2 + " Ganhou!"
     }
     else if (n1 == n2)
         display.innerHTML = "Deu empate!"
